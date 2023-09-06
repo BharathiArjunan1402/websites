@@ -1,3 +1,6 @@
+body{
+    
+}
 .me1{
     height: 194px;
     background-color:#c43121;
@@ -14,13 +17,34 @@
 .bar
 {
     overflow: hidden;
+    margin-left: 112.5px;
 }
 .bar a {
-    text-decoration: none;
+    /* text-decoration: none; */
     float: left;
-    font-size: large;
     text-align: center;
-    padding: 100px 2px;
-    color: aliceblue;
+    padding: 79px 24px;
+    color:#FFE2DF;
+    text-decoration: none;
+    font-size: clamp(1rem,1rem + 2vw,1.5rem);
 }
+.me2{
+    height: 877px;
+    background-color: #f4f4e1;
+}   
+.h{
+    font-weight: 500;
+    /* font-family: "Comic Sans MS", cursive; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #c43121;
+    margin: 0;
+    font-size: clamp(1.962890625rem,4.966796875vw + 1rem,2.9296875rem);
+}
+.bar2{
+    padding: 5vh 0;
+    margin-left: 11vh;
+}
+
+
+
 
