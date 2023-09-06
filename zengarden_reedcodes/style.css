@@ -1,0 +1,13 @@
+.me1{
+    height: 194px;
+    background-color:#c43121;
+}
+.pic1{
+    /* aspect-ratio: 1; */
+    width: 160px;
+    border-radius: 50%;
+    border: 6px solid antiquewhite;
+    background-color:#95caba;
+    margin-top: 2.7%;
+    margin-left: 15.4%;
+}
