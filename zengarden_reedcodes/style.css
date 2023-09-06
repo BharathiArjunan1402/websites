@@ -11,3 +11,16 @@
     margin-top: 2.7%;
     margin-left: 15.4%;
 }
+.bar
+{
+    overflow: hidden;
+}
+.bar a {
+    text-decoration: none;
+    float: left;
+    font-size: large;
+    text-align: center;
+    padding: 100px 2px;
+    color: aliceblue;
+}
+
