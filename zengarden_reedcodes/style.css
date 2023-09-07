@@ -1,6 +1,12 @@
 body{
-    
+   
+    overflow-x: hidden;
 }
+
+ body a{
+    color: #c43121; 
+}
+
 .me1{
     height: 194px;
     background-color:#c43121;
@@ -19,8 +25,8 @@ body{
     overflow: hidden;
     margin-left: 112.5px;
 }
-.bar a {
-    /* text-decoration: none; */
+.bar a{
+     text-decoration: none; 
     float: left;
     text-align: center;
     padding: 79px 24px;
@@ -29,22 +35,41 @@ body{
     font-size: clamp(1rem,1rem + 2vw,1.5rem);
 }
 .me2{
-    height: 877px;
+    height: 890px;
     background-color: #f4f4e1;
 }   
 .h{
-    font-weight: 500;
-    /* font-family: "Comic Sans MS", cursive; */
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-weight: 500; */
+    font-family: montez,cursive;
     color: #c43121;
     margin: 0;
-    font-size: clamp(1.962890625rem,4.966796875vw + 1rem,2.9296875rem);
+    font-size:46.88px;
 }
 .bar2{
-    padding: 5vh 0;
-    margin-left: 11vh;
+    padding: 6.6vh 0;
+    margin-left: 11.1vh;
 }
+.subtitle{
+    font-size:66px;
+     font-family: Neuton;
+    font-weight: 500;
+    /* font: bold; */ 
+}
+.paragraph{
+    
+    font-family:system-ui,sans-serif;
+    font-size: x-large;
+    font-size: 26px;
+}
+.bar3{
+    height: 820px;
+    background-color: #95caba;
 
-
+}
+.bar2 h2{
+    font-size: 45px;
+    font-family: Neuton;  
+    font-weight: 550;
+}
 
 
