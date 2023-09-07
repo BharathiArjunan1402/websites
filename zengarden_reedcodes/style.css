@@ -28,10 +28,10 @@ body{
 .bar a{
      text-decoration: none; 
     float: left;
-    text-align: center;
+    /* text-align: center; */
     padding: 79px 24px;
     color:#FFE2DF;
-    text-decoration: none;
+ 
     font-size: clamp(1rem,1rem + 2vw,1.5rem);
 }
 .me2{
@@ -59,10 +59,11 @@ body{
     
     font-family:system-ui,sans-serif;
     font-size: x-large;
-    font-size: 26px;
+    font-size: 25.9px;
+   
 }
 .bar3{
-    height: 820px;
+    height: 870px;
     background-color: #95caba;
 
 }
@@ -71,7 +72,7 @@ body{
     font-family: Neuton;  
     font-weight: 550;
     margin-bottom: 5px;
-    margin-top: 31px;
+   
 }
 
 .button {
@@ -79,17 +80,38 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
-    color: #333;
+    color:#35544b;
     text-decoration: none;
+    margin-top: 20px;
 }
 
 .button span {
     margin-right: 10px;
 }
-.bar2 a{
-    text-decoration: none;
+.par a{
+    color: #35544b;
+    
 }
-
+.par{
+    font-family:system-ui,sans-serif;
+    font-size: medium;
+    font-size: 26px;
+  
+}
+.bar5{
+    padding: 6.6vh 0;
+    margin-left: 11.1vh;
+}
+.bar5 a{
+    color:#35544b;
+}
+ul{
+    list-style: none;
+    padding-left: 0rem;
+}
+.bar5{
+    margin-left: 50px;
+}
 
 
 
