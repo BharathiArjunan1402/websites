@@ -70,6 +70,26 @@ body{
     font-size: 45px;
     font-family: Neuton;  
     font-weight: 550;
+    margin-bottom: 5px;
+    margin-top: 31px;
 }
+
+.button {
+    font-size: 1.5em;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.button span {
+    margin-right: 10px;
+}
+.bar2 a{
+    text-decoration: none;
+}
+
+
 
 
