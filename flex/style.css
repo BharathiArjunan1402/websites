@@ -3,8 +3,13 @@ body{
 }
 h1{
     font-size: 50px;
+    color: red;
+    text-decoration: underline;
 }
-
+h2{
+    margin-top: 35px;
+    color: #fff;
+}
 h3{
     font-size: 40px;
 }
@@ -15,7 +20,7 @@ h4{
 }
 .card1{
     background-color: #fff;
-    height: 200px;
+    height: 300px;
     
     padding: 3px;
     display: flex;
@@ -66,11 +71,68 @@ h4{
     justify-content: right;
 }
 /* .card11{
-    /* justify-content: baseline; */
-
-.base{
-    margin-top: 20px;
-}
-.card11{
     justify-content: baseline;
+} */
+.card12{
+    justify-content: space-evenly;
+}
+.card13{
+    align-items: flex-start;
+}
+.card14{
+    align-items: flex-end;
+}
+.card15{
+    align-items: center;
+}
+.card16{
+    align-items:stretch;
+}
+.card17{
+    align-items: baseline;
+}
+.card18{
+    align-items: first baseline;
+}
+.card19{
+    align-items: last baseline;
+}
+.card20{
+    align-items: start;
+}
+.card21{
+    align-items: end;
+}
+.card22{
+    align-items: self-start;
+}
+.card23{
+    align-items: safe;
+}
+.card24{
+    align-items: unset;
+}
+.card25{
+    flex-wrap: nowrap;
+    height: 700px;
+}
+.card26{
+    flex-wrap: wrap;
+    height: 700px;
+}
+.card27{
+    flex-wrap: wrap-reverse;
+    height: 700px;
+}
+.card28{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    height: 500px;
+}
+.card29{
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: flex-start;
 }
