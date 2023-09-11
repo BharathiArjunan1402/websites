@@ -218,3 +218,66 @@ h4{
     margin-top: 10px;
     margin-left: 10px;
 }
+.box3{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.box4{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    flex-grow: 2;
+    margin-right: 10px;
+}
+.box5{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.box6{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+   flex-basis:auto;
+}
+.box7{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+.box8{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+.box9{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+    align-self: center;
+}
+.box10{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+    align-self: baseline;
+}
+.box11{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    margin-right: 10px;
+    align-self: stretch;
+}
