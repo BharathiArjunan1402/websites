@@ -29,15 +29,15 @@ h4{
 .box{
     height:87px;
     background-color: black;
-    width: 150px;
-    display: flex;
+    width: 300px;
+    /* display: flex; */
     /* align-self: center; */
     margin-left: 10px;
     margin-top: 10px;
 
 }
 .card2{
-    display: flex;
+    /* display: flex; */
     flex-direction: row-reverse;
    
 }
@@ -117,22 +117,42 @@ h4{
     height: 700px;
 }
 .card26{
+    /* flex-direction: row; */
     flex-wrap: wrap;
-    height: 700px;
+    height: 400px;
 }
 .card27{
     flex-wrap: wrap-reverse;
-    height: 700px;
+    height: 400px;
+    
 }
 .card28{
-    flex-direction: row;
     flex-wrap: wrap;
     align-content:flex-end;
-    height: 500px;
+    height: 600px;
 }
-.card29{
-    flex-direction: row;
+.card29{ 
     flex-wrap: wrap;
-    height: 500px;
+    height: 600px;
     align-content: flex-start;
+}
+.card30{
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: center;
+}
+.card31{
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: stretch;
+}
+.card32{
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: space-between;
+}
+.card33{
+    flex-wrap: wrap;
+    height: 600px;
+    align-content: space-around;
 }
