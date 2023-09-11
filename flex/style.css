@@ -42,16 +42,16 @@ h4{
    
 }
 .card3{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     height: 400px;
 }
 .card4{
-    display: flex;
+    /* display: flex; */
     flex-direction: column-reverse;
 }
 .card5{
-    display: flex;
+    /* display: flex; */
     justify-content: flex-start;
 }
 .card6{
@@ -155,4 +155,66 @@ h4{
     flex-wrap: wrap;
     height: 600px;
     align-content: space-around;
+}
+.card34{
+    flex-flow:row wrap;
+    height: 500px;
+}
+.card35{
+    flex-flow:Column wrap;
+    height: 500px;
+}
+.card36{
+    flex-flow:row-reverse wrap;
+    height: 500px;
+}
+.card37{
+    flex-flow:column-reverse wrap;
+    height: 500px;
+}
+.card38{
+    flex-flow:row wrap-reverse;
+    height: 500px;
+}
+.card39{
+    flex-flow:Column wrap-reverse;
+    height: 500px;
+}
+.card40{
+    flex-flow:row-reverse wrap-reverse;
+    height: 500px;
+}
+.card41{
+    flex-flow:column-reverse wrap-reverse;
+    height: 500px;
+}
+.card42{
+    gap: 210px;
+}
+.card43{
+    gap: 10px 10px;
+}
+.card44{
+    row-gap: 50px;
+}
+.card45{
+    flex-direction: column;
+    row-gap: 50px;
+    height: 600px;
+}
+.box1{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    order: -2;
+    margin-top: 10px;
+
+}
+.box2{
+    height:87px;
+    background-color: black;
+    width: 300px;
+    order: -1;
+    margin-top: 10px;
+    margin-left: 10px;
 }
