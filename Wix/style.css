@@ -73,9 +73,10 @@ input[type="search"]::placeholder {
    
 }
 .image h1{
-    font-size: 100px;
+    font-size: 90px;
     color: white;
     margin-top: 5px;
+    letter-spacing: 5.5px;
     
 }
 .image h3{
@@ -83,8 +84,107 @@ input[type="search"]::placeholder {
     color: white;
     font-weight: 200;
     margin-top: 20px;
-    margin-left: 212px;
+    margin-left: 91px;
+    letter-spacing: 2px;
 }
 .blog{
-    margin-left: 230px;
+    margin-left: 351px;
+    margin-top: -182px;
+}
+.image h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 216px;
+    letter-spacing: 2px;
+}
+.paragraph{
+    margin-top: 50px;
+    height: 100px;
+}
+.paragraph p{
+    font-size: 18px;
+    color: rgb(105,105,105);
+    margin-top: 10px;
+    margin-left: 700px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box img{
+    height: 285px;
+    width: 350px;
+}
+.box1{
+    position: relative;
+    display: inline-block;
+}
+.button-above-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    padding: 20px 60px;
+   
+}
+.box1 a{
+    font-size: 25px;
+    text-decoration: none; 
+}
+.card2{
+    height: 200px;
+    background-color: #f2f2f2;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.feature h2{
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 20px;
+    margin-top: 98px;
+}
+.ln{
+    margin-top: 85px;
+    height: 60px;
+}
+.travel{
+    margin-top: 75px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+.highlight{
+    font-weight: 500;
+    font-size: 40px;
+}
+.travel h2{
+    text-decoration: none;
+    font-weight: 100;
+}
+.beach{
+    height: 900px;
+    margin-bottom: 20px;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blue a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 45px;
+}
+.wi{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 500px;
 }
