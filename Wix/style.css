@@ -3,14 +3,18 @@
 }
 body{
     overflow-x: hidden;
+    /* position: relative; */
 }
+
 .bar{
     background-color: #f2f2f2;
-    height: 84px;
+    height: 62px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 15px;
+    /* position: fixed; */
+    width:100%
 }
 #search{
     background: transparent;
@@ -51,9 +55,36 @@ input[type="search"]::placeholder {
 }
 .link2 a{
     margin-left: 25px;
-    font-size: 17px;
+    font-size: 19px;
     text-decoration: none;
+    background: transparent;
 }
 .in{
     margin-top: 27px;
+}
+.image{
+    background: url(pi.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image h1{
+    font-size: 100px;
+    color: white;
+    margin-top: 5px;
+    
+}
+.image h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 212px;
+}
+.blog{
+    margin-left: 230px;
 }
