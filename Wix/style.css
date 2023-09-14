@@ -46,6 +46,15 @@ input[type="search"]::placeholder {
     text-decoration: none;
     color: gray;
 }
+.te a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    margin-top: 15px !important;
+}
+.te a:hover{
+    color: blue;
+}
 
 .link a:hover {
     color: rgb(13, 13, 145);
@@ -169,8 +178,11 @@ input[type="search"]::placeholder {
     font-weight: 100;
 }
 .beach{
-    height: 900px;
-    margin-bottom: 20px;
+    height: 878px;
+    margin-bottom: 30px;
+    outline-style: solid;
+    outline-color: lightgray;
+    outline-width: 0.1px;
 }
 .set{
     display: flex;
@@ -189,10 +201,77 @@ input[type="search"]::placeholder {
     margin-left: 500px;
 }
 .bbelow{
-    margin-top: 50px;
+    margin-top: 26px;
     margin-left: 40px;
 }
 .crown{
     margin-top: -56px;
     margin-left: 79px;
+}
+.ad{
+    margin-top: -16px;
+}
+.ad h3{
+    font-weight: 100;
+    font-size: 15px;
+    color: light black;
+    margin-left: -27px;
+}
+.font{
+    margin-top: 20px;
+    border-top: 1px solid lightgray ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.p{
+    display: flex;
+    flex-direction: r0w;
+    justify-content: center;
+}
+.p .div img{
+    height: 400px;
+    width: 430px;
+}
+.last{
+    background-color: gray;
+    height:450px;
+    margin-top: -4px;
+}
+#button1{
+    height: 40px;
+    width: 300px;
+    background: transparent;
+    border: 5px solid red;
+    
+    
+}
+#button1::placeholder{
+    margin-left: 30px;
+    color:rgb(86, 80, 80);
+    text-align: center;
+    size: 30px;
+}
+#button2{
+    height: 40px;
+    width: 300px;
+    background-color: blue;
+}
+
+button{
+    height: 50px;
+    width: 312px;
+    margin-top: 10px;
+    background-color: blue;
+}
+.lola a{
+    margin-left: 5px;
+    text-decoration: none;
+    
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
