@@ -275,3 +275,8 @@ button{
     align-items: center;
     
 }
+.cam{
+    display: flex;
+    flex-direction: row;
+    
+}
