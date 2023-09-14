@@ -188,3 +188,11 @@ input[type="search"]::placeholder {
     justify-content: space-around;
     margin-left: 500px;
 }
+.bbelow{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.crown{
+    margin-top: -56px;
+    margin-left: 79px;
+}
